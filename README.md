@@ -8,3 +8,5 @@ In the config editor, set toolkit.legacyUserProfileCustomizations.stylesheets to
 Find profile directory via troubleshooting information 
 
 Create chrome folder and place userChrome.css
+
+Customise toobar buttons and search box placement.
