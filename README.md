@@ -9,4 +9,4 @@ Find profile directory via troubleshooting information
 
 Create chrome folder and place userChrome.css
 
-Customise toobar buttons and search box placement.
+Customise toobar buttons and search box placement. Arrange folder view columns.
