@@ -1,0 +1,26 @@
+.aw-firstColBox {
+    display:none !important;
+}
+#identityLabel-box,
+.address-label-container,
+#subjectLabel-box {
+    margin-left: -40px !important;
+}
+
+@namespace html url("http://www.w3.org/1999/xhtml");
+
+#toolbar-menubar {
+  order: 1;             
+}
+
+unified-toolbar {
+  order: 3;             
+}
+
+#tabs-toolbar {
+  order: 2;              
+}
+
+#spacesPinnedButton{
+  display: none
+}
