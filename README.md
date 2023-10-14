@@ -1,5 +1,5 @@
 # My_thunderbird_userChrome
-Stylesheet for thunderbird dinosaurs on supernova
+*Stylesheet for thunderbird dinosaurs on supernova*
 
 Enable menu bar, classic view, hide folder pane header, and set density to compact
 
