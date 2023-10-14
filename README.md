@@ -1,5 +1,6 @@
 # My_thunderbird_userChrome
 *Stylesheet for thunderbird dinosaurs on supernova*
+
 Note that new thunderbird updates may break the ui changes
 
 Enable menu bar, classic view, hide folder pane header, and set density to compact
