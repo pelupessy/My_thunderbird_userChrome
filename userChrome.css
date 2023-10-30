@@ -23,3 +23,14 @@ unified-toolbar {
 #spacesPinnedButton{
   display: none
 }
+
+/* zebra messages pane */
+#threadTree tr:nth-child(2n) {
+    /* gradient avoids overwriting text */
+    background-image: linear-gradient(rgba(0,0,0,.04), rgba(0,0,0,.04)) !important; 
+}
+/* zebra folder tree */
+#folderTree li[is="folder-tree-row"]:nth-child(2n) > div.container {
+    /* gradient avoids overwriting text */
+    background-image: linear-gradient(rgba(0,0,0,.02), rgba(0,0,0,.02)) !important;
+}
