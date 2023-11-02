@@ -8,18 +8,20 @@
     margin-left: -40px !important;
 }
 
+/* reorder menu bar - tabs bar - universal toolbar */
 #toolbar-menubar {
   order: 1;             
-}
-
-unified-toolbar {
-  order: 3;             
 }
 
 #tabs-toolbar {
   order: 2;              
 }
 
+unified-toolbar {
+  order: 3;             
+}
+
+/* disable spaces button */
 #spacesPinnedButton{
   display: none
 }
@@ -33,4 +35,9 @@ unified-toolbar {
 #folderTree li[is="folder-tree-row"]:nth-child(2n) > div.container {
     /* gradient avoids overwriting text */
     background-image: linear-gradient(rgba(0,0,0,.02), rgba(0,0,0,.02)) !important;
+}
+
+/* disable buttons in message header */
+.header-buttons-container {
+    display:none !important;
 }
