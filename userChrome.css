@@ -41,3 +41,8 @@ unified-toolbar {
 .header-buttons-container {
     display:none !important;
 }
+
+/* disable new mail icon in subject column of mail list */
+tr[data-properties~="new"] :is(.subject-line img, .new) {
+  visibility: hidden !important;
+}
