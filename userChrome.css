@@ -26,6 +26,17 @@ unified-toolbar {
   display: none
 }
 
+/* Set colour for new mail */
+#threadTree tbody [data-properties~="new"] {
+  font-weight: bold !important;
+  color: black !important;
+}
+
+/* Set colour for folders that contain new mail */
+.new-messages > .container > .name {
+  color: black !important; 
+}
+
 /* zebra messages pane */
 #threadTree tr:nth-child(2n) {
     /* gradient avoids overwriting text */
