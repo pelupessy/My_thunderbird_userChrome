@@ -1,29 +1,32 @@
 .aw-firstColBox {
     display:none !important;
 }
-
 #identityLabel-box,
 .address-label-container,
 #subjectLabel-box {
     margin-left: -40px !important;
 }
 
-/* reorder menu bar - tabs bar - universal toolbar */
 #toolbar-menubar {
   order: 1;             
-}
-
-#tabs-toolbar {
-  order: 2;              
 }
 
 unified-toolbar {
   order: 3;             
 }
 
-/* disable spaces button */
+#tabs-toolbar {
+  order: 2;              
+}
+
 #spacesPinnedButton{
   display: none
+}
+
+.unread > .container > .unread-count {
+  display: unset;
+  color: gray !important;
+  background-color: transparent !important;
 }
 
 /* Set colour for new mail */
@@ -48,7 +51,7 @@ unified-toolbar {
     background-image: linear-gradient(rgba(0,0,0,.02), rgba(0,0,0,.02)) !important;
 }
 
-/* disable buttons in message header */
+/* disable buttons in mail pane header */
 .header-buttons-container {
     display:none !important;
 }
@@ -56,6 +59,12 @@ unified-toolbar {
 /* disable new mail icon in subject column of mail list */
 tr[data-properties~="new"] :is(.subject-line img, .new) {
   visibility: hidden !important;
+}
+
+/* disable new mail mark on folder icon in the folder pane */
+.new-messages:not([data-server-type]) > .container > .icon::after 
+{
+  content: url("") !important;
 }
 
 
